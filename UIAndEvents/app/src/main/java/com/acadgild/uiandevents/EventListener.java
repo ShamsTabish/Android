@@ -49,7 +49,7 @@ public class EventListener implements View.OnClickListener, AdapterView.OnItemSe
 
 
 
-    //These method must be overridden to handle events on the spinner 
+    //These method must be overridden to handle events on the spinner
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         String selectedCourse=courseList.get(position);
