@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="institute">Institute</string>
+    <string name="instituteValue"> Acadgild </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="title_activity_explicit_intent_with_data">ExplicitIntentWithData</string>
+    <string name="title_activity_explicit_intent_with_result">ExplicitIntentWithResult</string>
+</resources>

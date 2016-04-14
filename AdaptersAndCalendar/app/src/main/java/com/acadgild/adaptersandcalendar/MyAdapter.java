@@ -57,7 +57,6 @@ public class MyAdapter  extends BaseAdapter{
                 public void onClick(View v) {
                    // Toast.makeText(context, "City: "+cities.get(position), Toast.LENGTH_SHORT).show();
                     Snackbar.make(v,"City: "+cities.get(position),Snackbar.LENGTH_SHORT).show();
-
                 }
             });
         }
