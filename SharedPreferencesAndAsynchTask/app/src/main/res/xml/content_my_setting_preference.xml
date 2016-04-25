@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Settings">
+    <CheckBoxPreference
+        android:key="statusVisiblity"
+        android:summary="Make your status text visible to everyone"
+        android:title="Show Status " />
+    <EditTextPreference
+        android:key="nickName"
+        android:hint="Nick Name.."
+        android:summary="Display Name"
+        android:title="Name" />
+    <PreferenceScreen android:title="Second Pref"
+        android:summary="Details ">
+        <SwitchPreference android:title="Email Id"
+            android:key="email"
+            />
+        <ListPreference
+            android:key="number"
+            android:title="Your favourate number"
+            android:entries="@array/listElements"
+            android:entryValues="@array/listElements"/>
+        <MultiSelectListPreference
+            android:key="multipleNumbers"
+            android:title="Your favourate number"
+            android:entries="@array/listElements2"
+            android:entryValues="@array/listElements2"/>
+    </PreferenceScreen>
+
+
+</PreferenceScreen>

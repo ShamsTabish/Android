@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="listElements">
+        <item>a0</item>
+        <item>a1</item>
+        <item>a2</item>
+        <item>c3</item>
+        <item>c4</item>
+        <item>c5</item>
+        <item>c6</item>
+        <item>c7</item>
+        <item>c8</item>
+        <item>c9</item>
+    </array>
+ <array name="listElements2">
+        <item>a0</item>
+        <item>a1</item>
+        <item>a2</item>
+        <item>c3</item>
+        <item>c4</item>
+        <item>c5</item>
+        <item>c6</item>
+        <item>c7</item>
+        <item>c8</item>
+        <item>c9</item>
+    </array>
+</resources>
