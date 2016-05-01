@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.acadgild.dialogdemoapp.ManuActivity"
+    tools:showIn="@layout/activity_manu">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message"
+        android:text="DiagloFragment Example!" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message"
+        android:text="@string/messageButtonText"
+        android:id="@+id/btnMessageDialog"
+        android:onClick="callSimpleDialog"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnMessageDialog"
+        android:text="@string/listButtonText"
+        android:id="@+id/btnListDialog"
+        android:onClick="callListDialog"
+        />
+
+  <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnListDialog"
+        android:text="@string/checkListButtonText"
+        android:id="@+id/btncheckListDialog"
+        android:onClick="callCheckListDialog"
+        />
+
+  <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btncheckListDialog"
+        android:text="@string/customButtonText"
+        android:id="@+id/btncustomDialog"
+        android:onClick="callCustomMirrorDialog"
+        />
+
+ <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btncustomDialog"
+        android:text="@string/dateButtonText"
+        android:id="@+id/btnDatePicker"
+        android:onClick="callDatePickerDialog"
+        />
+
+
+ <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnDatePicker"
+        android:text="@string/timeButtonText"
+        android:id="@+id/btnTimeDialog"
+        android:onClick="callTimePickerDialog"
+        />
+
+</RelativeLayout>
