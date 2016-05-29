@@ -6,9 +6,6 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-/**
- * Created by ssm2349 on 4/23/16.
- */
 public class EmployeeDB extends SQLiteOpenHelper{
     final String TABLE_NAME="employee";
     final String EMPLOYEE_ID="id";
