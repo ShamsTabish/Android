@@ -1,0 +1,18 @@
+#Internal package file, do not edit.
+#Wed Dec 28 23:54:05 IST 2016
+1.base=/Users/ssm2349/Documents/Studio/SampleMerchantApp1/app/build/intermediates/res/resources-debug.ap_
+4.file=/Users/ssm2349/Documents/Studio/SampleMerchantApp1/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+1.file=/Users/ssm2349/Documents/Studio/SampleMerchantApp1/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+4.set=ANDROID_RESOURCE
+2.base=/Users/ssm2349/Documents/Studio/SampleMerchantApp1/app/build/intermediates/res/resources-debug.ap_
+3.set=ANDROID_RESOURCE
+2.set=ANDROID_RESOURCE
+2.file=/Users/ssm2349/Documents/Studio/SampleMerchantApp1/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/ic_launcher.png
+count=5
+1.set=ANDROID_RESOURCE
+3.base=/Users/ssm2349/Documents/Studio/SampleMerchantApp1/app/build/intermediates/res/resources-debug.ap_
+0.set=DEX
+0.base=/Users/ssm2349/Documents/Studio/SampleMerchantApp1/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+3.file=/Users/ssm2349/Documents/Studio/SampleMerchantApp1/app/build/intermediates/res/resources-debug.ap_/res/layout/merchantapp.xml
+0.file=/Users/ssm2349/Documents/Studio/SampleMerchantApp1/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+4.base=/Users/ssm2349/Documents/Studio/SampleMerchantApp1/app/build/intermediates/res/resources-debug.ap_

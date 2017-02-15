@@ -65,11 +65,8 @@ public class MainUI extends AppCompatActivity {
 
             notificationBuilder.setContentIntent(pendingIntent);
 
-            notificationBuilder.addAction(R.mipmap.ic_launcher,"Call..",pendingIntent);
+            notificationBuilder.addAction(R.mipmap.ic_launcher, "Call..", pendingIntent);
             notificationBuilder.addAction(R.mipmap.ic_launcher,"Dismiss!!",pendingIntent);
-
-
-
 
             NotificationManager notificationManager=(NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
             notificationManager.notify(idForNotification++,notificationBuilder.build());

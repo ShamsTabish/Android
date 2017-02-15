@@ -13,9 +13,6 @@ import android.widget.Toast;
 
 import java.util.List;
 
-/**
- * Created by ssm2349 on 4/9/16.
- */
 public class MyAdapter  extends BaseAdapter{
     Context context;
     List<String> cities;
